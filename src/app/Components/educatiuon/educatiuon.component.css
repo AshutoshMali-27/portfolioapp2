@@ -1,0 +1,71 @@
+
+:host{
+    display: block;
+    color: black;
+padding: 3rem 2rem;
+}
+
+
+section{
+    margin-top: 2rem;
+}
+
+section h2{
+
+    color: var(--black);
+    font-size: 1.35rem;
+
+    
+}
+section h3{
+
+    color: var(--black);
+    font-size: 1.25rem;
+
+    
+}
+
+.title{
+    text-align: left;
+    margin: auto;
+    width: 79%;
+    font-size: 1.85rem;
+ }
+ .title span{
+     color: black;
+     
+ }
+
+section h4{
+
+    color: var(--black);
+    font-size: 1.15rem;
+}
+ h1{
+    color: black;
+ }
+
+
+/* PC */
+:host.pc section{
+    width: 600px;
+    position: relative;
+    margin-left: 5rem;
+    display: grid;
+    gap:0 1.5rem;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(3,1fr);
+}
+
+:host.pc section h4:nth-child(4){
+    grid-row: 1/4;
+    margin-top: 0%;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+}
+
+
+
